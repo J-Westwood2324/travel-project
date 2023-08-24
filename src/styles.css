@@ -63,7 +63,7 @@ header a {
   margin-top: 32px;
 }
 main .img-responsive {
-  max-width: 100%;
+  max-width: 75%;
 }
 main h2 {
   font-size: 40px;
@@ -130,7 +130,7 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 16px;
   }
-  sections {
+  section {
     padding: 30px;
   }
   main {

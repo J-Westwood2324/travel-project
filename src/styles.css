@@ -13,10 +13,10 @@ body {
 .col-2 {
   grid-template-columns: 1fr 1fr;
 }
-.col-3 {
+.col-3-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
-.col-3-cards {
+.col-3 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .text-centre {
@@ -35,6 +35,9 @@ body {
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
+}
+.instagram-embed {
+  margin: 10px 60px;
 }
 .btn {
   display: block;
@@ -141,6 +144,7 @@ main h5 {
   color: #272044;
   margin: 0;
 }
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
